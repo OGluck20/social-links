@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+body{
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    max-width: 1440px;
+    min-width: 375px;
+}
+div{
+    max-width: 1440px;
+    min-width: 385px;
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 5%;
+    background-color: hsl(0, 0%, 12%);
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 10px;
+}
+div img{
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    margin-left: 35%;
+    margin-right: 45%;
+    margin-bottom: 15px;
+}
+div p{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.last-child{
+    color: greenyellow;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+div nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div nav a{
+    background-color: hsl(0, 0%, 20%);
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    width: 80%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+div nav a:not(:last-child){
+    margin-bottom: 15px;
+}
